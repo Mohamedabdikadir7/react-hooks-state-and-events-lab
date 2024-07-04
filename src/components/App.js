@@ -23,7 +23,7 @@ function App() {
       <header>
         <h2>Shopster</h2>
         <button onClick={ChangeTheme}>
-         {ison ? 'Dark' : 'Light'} Mode
+         {ison ? 'Light' : ' Dark'} Mode
         </button>
       </header>
       <ShoppingList items={itemData} />
